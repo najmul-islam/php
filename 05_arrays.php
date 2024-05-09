@@ -100,19 +100,19 @@ $number = [1, 2, 3, 4, 5, 6, 7, 8];
 // $evens = array_filter($number, function ($n) {
 //     return $n % 2 === 0;
 // });
-$evens = array_filter($number, fn($n) => $n % 2 === 0);
+$evens = array_filter($number, fn ($n) => $n % 2 === 0);
 
 echo "<pre>";
 var_dump($evens);
 echo "</pre>";
 
-$squares = array_map(fn($n) => $n * $n, $number);
+$squares = array_map(fn ($n) => $n * $n, $number);
 
 echo "<pre>";
 var_dump($squares);
 echo "</pre>";
 
-echo array_reduce($number, fn($carry, $item)=> $carry + $item);
+echo array_reduce($number, fn ($carry, $item) => $carry + $item);
 
 // https://www.php.net/manual/en/ref.array.php
 
@@ -123,9 +123,9 @@ echo array_reduce($number, fn($carry, $item)=> $carry + $item);
 // Create an associative array
 $person = [
     "name" => "Brand",
-    "surname"=> "Traversy",
+    "surname" => "Traversy",
     "age" => 30,
-    "hobbies"=> [ "Tennis", "Video Games"]
+    "hobbies" => ["Tennis", "Video Games"]
 ];
 // Get element by key
 echo $person["name"] . "<br>";
