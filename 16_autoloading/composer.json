@@ -1,0 +1,17 @@
+{
+  "name": "najmul/16_autoloading",
+  "autoload": {
+    "psr-4": {
+      "app\\": "./app"
+    }
+  },
+  "authors": [
+    {
+      "name": "najmul islam",
+      "email": "najmulislam519@gmail.com"
+    }
+  ],
+  "require": {
+    "monolog/monolog": "^3.6"
+  }
+}
