@@ -1,8 +1,8 @@
-<?php 
+<?php
 // Print current timestamp
 echo time() . "<br>";
 // Print current date
-echo date("Y-m-d H:i:s"). "<br>"
+echo date("Y-m-d H:i:s") . "<br>";
 // Print yesterday
 
 // Different format: https://www.php.net/manual/en/function.date.php
