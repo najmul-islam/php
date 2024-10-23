@@ -12,6 +12,8 @@ I have created multiple branches in this repository, each dedicated to a differe
 
 - **main**: The main branch contains general notes and resources.
 - **the-codeholic**: [PHP for beginner](https://github.com/najmul-islam/php/tree/the-codeholic)
+- **geeky-shows**: [PHP for beginner](https://github.com/najmul-islam/php/tree/geeky-shows)
+- **step-by-step**: [PHP for beginner](https://github.com/najmul-islam/php/tree/step-by-step)
 
 ## Contributing
 
